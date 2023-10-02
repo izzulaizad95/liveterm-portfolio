@@ -1,21 +1,17 @@
 {
   "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
   "title": "LiveTerm",
-  "name": "John Doe",
-  "ascii": "liveterm",
+  "name": "Izzul Aizad",
+  "ascii": "cveinnt",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "izzulaizad95",
+    "linkedin": "izzulaizad"
   },
-  "email": "contact@email.com",
+  "email": "izzulaizad95@gmail.com",
   "ps1_hostname": "liveterm",
   "ps1_username": "visitor",
-  "repo": "https://github.com/Cveinnt/LiveTerm",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
-  "donate_urls": {
-    "paypal": "https://paypal.me/cveinnt",
-    "patreon": "https://patreon.com/cveinnt"
-  },
+  "repo": "https://github.com/izzulaizad95",
+  "resume_url": "https://drive.google.com/file/d/1BJ09tRTfAdsICA49b_tkOtSrMPeAajbT/view?usp=drive_link",
   "colors": {
     "light": {
       "background": "#FBF1C9",
@@ -27,7 +23,7 @@
       "red": "#CA2124"
     },
     "dark": {
-      "background": "#2E3440",
+      "background": "#282828",
       "foreground": "#E5E9F0",
       "yellow": "#5E81AC",
       "green": "#A3BE8C",
