@@ -1,5 +1,6 @@
 import React from 'react';
 import { History } from './interface';
+import { banner } from '../../utils/bin';
 
 export const useHistory = (defaultValue: Array<History>) => {
   const [history, setHistory] = React.useState<Array<History>>(defaultValue);
@@ -22,6 +23,14 @@ export const useHistory = (defaultValue: Array<History>) => {
       ]),
     setCommand,
     setLastCommandIndex,
-    clearHistory: () => setHistory([]),
+    clearHistory: () =>
+      setHistory([
+        {
+          id: 1,
+          date: new Date(),
+          command,
+          output: banner(),
+        },
+      ]),
   };
 };
